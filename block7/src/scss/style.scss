@@ -1,0 +1,153 @@
+$bgColor: #ffffff;
+$bgColor1: rgba(253, 251, 251,0.897);
+$bgPage: #f8f8f8;
+$text: rgb(0, 0, 0);
+$borderItem: #b8ffec;
+$textMenu: #7e7e82;
+$bgFlexMenu: #ffffff;
+$thBody: #ffffff;
+$gradient: #c5c5c560;
+$borderTop: #d9fff5;
+$dots: #bbb;
+$active: #41f6d7;
+$shadow: #b4b1b1;
+
+@font-face {
+    font-family: "TT Lakes Regular";
+    src: url("../fonts/TTLakes-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "TT Lakes Medium";
+    src: url("../fonts/TTLakes-Medium.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "TT Lakes Bold";
+    src: url("../fonts/TTLakes-Bold.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "TT Lakes Bold2";
+    src: url("../fonts/TTLakes-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+body {
+    max-width: 1440px;
+    height: auto;
+    margin: auto;
+    font-family: "TT Lakes Regular";
+    background-color: $bgColor;
+    color: $text;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    max-width: 1438;
+    max-height: auto;
+    background: #f8f8f8;
+}
+
+.ta-s {
+    text-align: left;
+    width: 31%;
+}
+
+.ta-c {
+    text-align: center;
+    width: 31%;
+}
+
+.ta-e {
+    text-align: right;
+    width: 28%;
+}
+
+.btlr-10 {
+    border-top-left-radius: 10px;
+}
+
+.btrr-10 {
+    border-top-right-radius: 10px;
+}
+
+.bblr-10 {
+    border-bottom-left-radius: 10px;
+}
+
+.bbrr-10 {
+    border-bottom-right-radius: 10px;
+}
+
+.mr-2 {
+    margin-right: 2% !important;
+}
+
+.ml-a {
+    margin-left: auto !important;
+}
+
+.page__section--img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__style {
+        font-size: 14px;
+        display: flex;
+        border-top: 1px solid #d9fff5;
+    }
+
+    .ta-s {
+        text-align: left;
+        width: 31%;
+        margin: 0;
+    }
+
+    .ta-c {
+        text-align: center;
+        width: 31%;
+        margin: 0;
+    }
+
+    .ta-e {
+        text-align: right;
+        width: 28%;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__style {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ta-s {
+        text-align: center;
+        width: auto;
+    }
+    .ta-c {
+        text-align: center;
+        width: auto;
+    }
+
+    .ta-e {
+        text-align: center;
+        width: auto;
+    }
+}

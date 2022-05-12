@@ -1,0 +1,149 @@
+.wrapper {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 0;
+    width: 440px;
+    height: 100%;
+    // transition: all 0.5s ease;
+    box-shadow: 0 0 10px #b4b1b1;
+}
+
+.call_head {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sidebar__hide {
+    display: none;
+}
+
+h2 {
+    margin: 29px 0 0 29px;
+    text-align: start;
+}
+
+.h2__active {
+    position: relative;
+    padding-left: 6%;
+    right: 7%;
+    border-left: 3px solid #41f6d7;
+    border-radius: 2px;
+}
+
+.wrapper {
+    right: -540px;
+}
+
+input {
+    height: 48px;
+    margin: 29px 29px 0px 29px;
+    width: 376px;
+    left: 1032px;
+    top: 96px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 118px;
+    margin: 29px 29px 0px 29px;
+    width: 376px;
+    left: 1032px;
+    top: 288px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    resize: none;
+}
+
+.t-t {
+    margin: 29px 29px 0px 29px;
+}
+
+.t-pink {
+    color: #ff3e79;
+}
+
+.t-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    background: #ff3e79;
+    border-radius: 16px;
+    color: white;
+    width: 136px;
+    right: 0;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    right: 106%;
+    bottom: 90%;
+}
+
+.sidebar .wrapper {
+    right: -540px;
+}
+
+.wrapper-show {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(253, 251, 251, 0.897);
+    z-index: 1;
+}
+
+.wrapper {
+    content: none;
+}
+
+.sidebar__show {
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: -1px 5px 12px 0 rgba(89, 90, 90, 0.3);
+    z-index: 2;
+    right: 0;
+    width: 440px;
+    height: 100%;
+}
+
+@media (max-width: 320px) {
+    .sidebar__show {
+        position: absolute;
+        background-color: #ffffff;
+        box-shadow: -1px 5px 12px 0 rgba(89, 90, 90, 0.3);
+        z-index: 2;
+        right: 0;
+        width: 320px;
+        height: 100%;
+        overflow: auto;
+    }
+
+    input {
+        width: 260px;
+        margin: 20px 20px 0px 20px;
+    }
+
+    textarea {
+        width: 260px;
+        height: 100px;
+        margin: 20px 20px 0px 20px;
+    }
+
+    .t-t {
+        margin: 20px 20px 0px 20px;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        right: 80%;
+        bottom: 90%;
+    }
+
+    h2 {
+        margin: 90px 20px 0px 20px;
+        text-align: start;
+    }
+}

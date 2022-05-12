@@ -1,0 +1,9 @@
+import '../scss/style.scss';
+import '../scss/menu.scss';
+import '../scss/page.scss'
+import '../js/call';
+import '../scss/sidebar.scss';
+import '../js/sidebar.js';
+import '../scss/menuSidebar.scss';
+import '../js/carousel.js';
+import '../js/textOpen.js';
