@@ -909,7 +909,8 @@ textarea {
     box-shadow: -1px 5px 12px 0 rgba(89, 90, 90, 0.3);
     z-index: 2;
     right: 0;
-    width: 320px;
+    width: 100%;
+    max-width: 768px;
     height: 100%;
     overflow: auto; }
   input {
@@ -923,8 +924,8 @@ textarea {
     margin: 20px 20px 0px 20px; }
   .sidenav .closebtn {
     position: absolute;
-    right: 80%;
-    bottom: 90%; }
+    right: 90%;
+    bottom: 95%; }
   h2 {
     margin: 90px 20px 0px 20px;
     text-align: start; } }
