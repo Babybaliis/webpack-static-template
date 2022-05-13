@@ -1,21 +1,21 @@
 @font-face {
   font-family: "TT Lakes Regular";
-  src: url(./fonts/TTLakes-Regular.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Regular.ttf) format("truetype");
   font-weight: normal; }
 
 @font-face {
   font-family: "TT Lakes Medium";
-  src: url(./fonts/TTLakes-Medium.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Medium.ttf) format("truetype");
   font-weight: 400; }
 
 @font-face {
   font-family: "TT Lakes Bold";
-  src: url(./fonts/TTLakes-Bold.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Bold.ttf) format("truetype");
   font-weight: 500; }
 
 @font-face {
   font-family: "TT Lakes Bold2";
-  src: url(./fonts/TTLakes-Bold.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Bold.ttf) format("truetype");
   font-weight: 700; }
 
 body {
@@ -107,22 +107,22 @@ body {
 
 @font-face {
   font-family: "TT Lakes Regular";
-  src: url(./fonts/TTLakes-Regular.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Regular.ttf) format("truetype");
   font-weight: normal; }
 
 @font-face {
   font-family: "TT Lakes Medium";
-  src: url(./fonts/TTLakes-Medium.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Medium.ttf) format("truetype");
   font-weight: 400; }
 
 @font-face {
   font-family: "TT Lakes Bold";
-  src: url(./fonts/TTLakes-Bold.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Bold.ttf) format("truetype");
   font-weight: 500; }
 
 @font-face {
   font-family: "TT Lakes Bold2";
-  src: url(./fonts/TTLakes-Bold.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Bold.ttf) format("truetype");
   font-weight: 700; }
 
 body {
@@ -291,22 +291,22 @@ li:hover {
 
 @font-face {
   font-family: "TT Lakes Regular";
-  src: url(./fonts/TTLakes-Regular.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Regular.ttf) format("truetype");
   font-weight: normal; }
 
 @font-face {
   font-family: "TT Lakes Medium";
-  src: url(./fonts/TTLakes-Medium.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Medium.ttf) format("truetype");
   font-weight: 400; }
 
 @font-face {
   font-family: "TT Lakes Bold";
-  src: url(./fonts/TTLakes-Bold.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Bold.ttf) format("truetype");
   font-weight: 500; }
 
 @font-face {
   font-family: "TT Lakes Bold2";
-  src: url(./fonts/TTLakes-Bold.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Bold.ttf) format("truetype");
   font-weight: 700; }
 
 body {
@@ -931,22 +931,22 @@ textarea {
 
 @font-face {
   font-family: "TT Lakes Regular";
-  src: url(./fonts/TTLakes-Regular.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Regular.ttf) format("truetype");
   font-weight: normal; }
 
 @font-face {
   font-family: "TT Lakes Medium";
-  src: url(./fonts/TTLakes-Medium.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Medium.ttf) format("truetype");
   font-weight: 400; }
 
 @font-face {
   font-family: "TT Lakes Bold";
-  src: url(./fonts/TTLakes-Bold.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Bold.ttf) format("truetype");
   font-weight: 500; }
 
 @font-face {
   font-family: "TT Lakes Bold2";
-  src: url(./fonts/TTLakes-Bold.ttf) format("truetype");
+  src: url(/webpack-static-template/./fonts/TTLakes-Bold.ttf) format("truetype");
   font-weight: 700; }
 
 body {
