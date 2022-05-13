@@ -6,37 +6,57 @@ var arrow = document.getElementsByClassName("arrow");
 var backSize = document.querySelector(".page__style");
 
 function openText() {
-  if (window.screen.width <= 768) {
+  if (window.screen.width <= 1440) {
     if (dots.style.display === "none") {
       initialState()
     } else {
       dots.style.display = "none";
       arrow[0].setAttribute("transform", "rotate(180)")
       btnText.innerHTML = "Скрыть";
-      if (window.screen.width <= 768) {
+      if (window.screen.width <= 1440) {
         more768.style.display = "inline"
       }
-      if (window.screen.width <= 320) {
+      if (window.screen.width <= 768) {
         more320.style.display = "inline"
         backSize.style.height = "600px"
       }
     }
-  }
+  } else {
+    let page=document.getElementsByClassName('page__section')
+      if (btnText.innerText == 'Читать далее') {
+        arrow[0].style.transform = "rotate(180deg)"
+        btnText.innerHTML = "Скрыть";
+        let st_p = document.getElementsByClassName('st-p');
+        
+        let clone=document.createElement('p')
+        clone.innerText=st_p[0].innerText
+        clone.id='tmp'
+        st_p[0].append(clone)
+       
+        page[0].style.height="430px";
+      } else {
+        arrow[0].style.transform = "rotate(0deg)"
+        btnText.innerHTML = "Читать далее";
+        let st_p = document.getElementsByClassName('st-p');
+        st_p[0].removeChild(document.getElementById('tmp'))
+        page[0].style.height="270px";
+      }
+    }
 }
 
 function initialState(flag) {
   if (flag) {
     more768.style.display = "inline"
     more320.style.display = "inline"
-    backSize.style.height = window.screen.width <= 768 ? "430px" : ""
+    backSize.style.height = window.screen.width <= 1440 ? "430px" : ""
   }
   dots.style.display = "inline";
   btnText.innerHTML = "Читать далее";
   arrow[0].setAttribute("transform", "rotate(0)")
-  if (window.screen.width <= 768) {
+  if (window.screen.width <= 1440) {
     more768.style.display = "none"
   }
-  if (window.screen.width <= 320) {
+  if (window.screen.width <= 768) {
     more320.style.display = "none"
     backSize.style.height = "430px"
   }

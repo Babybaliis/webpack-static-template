@@ -57,7 +57,7 @@ function show(event) {
     lang.classList.remove('lang')
     lang.classList.add('lang-show')
 
-    if (window.screen.width <= 320) {
+    if (window.screen.width <= 768) {
         icons.style.display = "flex";
     }
 
@@ -69,7 +69,7 @@ function closeSideBarMenu(event) {
     let sidebar = document.querySelector('.sidebar__menu');
     let sm = document.querySelector('.sm-show');
     closeButton.style.display = "none"
-    iconSearch.style.display = window.screen.width <= 768 ? 'none' : "block";
+    iconSearch.style.display = window.screen.width <= 1440 ? 'none' : "block";
 
     sm.classList.remove('sm-show')
     sidebar.classList.remove('sidebar-wrapper-show')
@@ -113,7 +113,7 @@ function closeSideBarMenu(event) {
     langShow.classList.add('lang')
 
 
-    if (window.screen.width <= 320) {
+    if (window.screen.width <= 768) {
         icons.style.display = "none";
     }
 }

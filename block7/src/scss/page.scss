@@ -19,10 +19,7 @@ h1 {
 }
 
 .page__header {
-    // margin-left: auto;
-    // margin-top: 1.3%;
-    // width: 35%;
-    // font-family: 'TT Lakes Medium';
+
     display: flex;
     height: 100%;
     list-style: none;
@@ -223,10 +220,10 @@ td {
     display: none;
 }
 .openTextBtn {
-    display: none;
+    // display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
     .page__header,
     .openTextDesktopBtn {
         display: none;
@@ -315,7 +312,7 @@ td {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
     .footer__style {
         justify-content: center;
         padding: 0;
@@ -402,6 +399,7 @@ td {
 
     .page__section--still {
         padding: 0 4%;
+        display: none;
     }
 
     h3 {

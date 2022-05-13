@@ -1,6 +1,6 @@
 @import "style.scss";
 
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
     .mail,
     .lang,
     .tel,
@@ -24,10 +24,11 @@
     }
 
     .side__menu {
-        width: 100%;
-        max-width: 768px;
-
+        max-width: 1366px;
+        max-height: 100%;
         padding: 0%;
+        margin-right: 0%;
+        width: 100%;
     }
 
     .menu,
@@ -150,13 +151,13 @@
         display: none;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: 768px) {
         .sm-show {
             content: "";
             background-color: $bgColor;
             position: absolute;
             left: 0;
-            width: 320px;
+            width: 520px;
             height: 100%;
             box-shadow: 0 0 10px $shadow;
             z-index: 2;
@@ -182,7 +183,8 @@
         }
 
         .side__menu {
-            max-width: 320px;
+            max-width: 768px;
+            width: 100%;
             max-height: 100%;
             padding: 0%;
             margin-right: 0%;

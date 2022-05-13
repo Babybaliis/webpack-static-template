@@ -1,4 +1,5 @@
 $bgColor: #ffffff;
+$body : #f8f8f8;
 $bgColor1: rgba(253, 251, 251,0.897);
 $bgPage: #f8f8f8;
 $text: rgb(0, 0, 0);
@@ -41,7 +42,7 @@ body {
     height: auto;
     margin: auto;
     font-family: "TT Lakes Regular";
-    background-color: $bgColor;
+    background-color: $body;
     color: $text;
     font-size: 14px;
 }
@@ -98,7 +99,7 @@ body {
     max-height: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1366px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -128,7 +129,7 @@ body {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
     .footer__style {
         display: flex;
         flex-wrap: wrap;

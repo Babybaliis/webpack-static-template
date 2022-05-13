@@ -42,7 +42,7 @@ li {
     margin: 10% 0 0 0;
 }
 
-.li__active {
+li:hover{
     position: relative;
     padding-left: 10%;
     right: 12%;
@@ -50,6 +50,8 @@ li {
     border-radius: 2px;
     color: #7e7e82;
 }
+
+
 
 .h1__active {
     position: relative;

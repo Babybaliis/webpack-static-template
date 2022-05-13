@@ -7,3 +7,4 @@ import '../js/sidebar.js';
 import '../scss/menuSidebar.scss';
 import '../js/carousel.js';
 import '../js/textOpen.js';
+import '../js/openItems.js';
