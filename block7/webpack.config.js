@@ -12,7 +12,7 @@ module.exports = {
   // Выходной файл
   output: {
     filename: './js/bundle.js',
-    // publicPath: "/webpack-static-template/"
+    publicPath: "/webpack-static-template/"
   },
 
   // Source maps для удобства отладки
