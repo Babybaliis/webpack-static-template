@@ -11,7 +11,7 @@ function openText() {
       initialState()
     } else {
       dots.style.display = "none";
-      arrow[0].setAttribute("transform", "rotate(180)")
+      arrow[0].style.transform = "rotate(180deg)"
       btnText.innerHTML = "Скрыть";
       if (window.screen.width <= 1440) {
         more768.style.display = "inline"
@@ -52,7 +52,7 @@ function initialState(flag) {
   }
   dots.style.display = "inline";
   btnText.innerHTML = "Читать далее";
-  arrow[0].setAttribute("transform", "rotate(0)")
+  arrow[0].style.transform = "rotate(0deg)"
   if (window.screen.width <= 1440) {
     more768.style.display = "none"
   }
