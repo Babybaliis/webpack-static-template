@@ -19,10 +19,8 @@
   font-weight: 700; }
 
 body {
-  max-width: 1440px;
-  height: auto;
-  margin: auto;
   font-family: "TT Lakes Regular";
+  margin: 0;
   background-color: #f8f8f8;
   color: black;
   font-size: 14px; }
@@ -126,10 +124,8 @@ body {
   font-weight: 700; }
 
 body {
-  max-width: 1440px;
-  height: auto;
-  margin: auto;
   font-family: "TT Lakes Regular";
+  margin: 0;
   background-color: #f8f8f8;
   color: black;
   font-size: 14px; }
@@ -266,7 +262,8 @@ li:hover {
 
 .contacts__icon {
   display: flex;
-  gap: 7%; }
+  gap: 7%;
+  cursor: pointer !important; }
 
 .mail {
   font-family: "TT Lakes Medium"; }
@@ -310,10 +307,8 @@ li:hover {
   font-weight: 700; }
 
 body {
-  max-width: 1440px;
-  height: auto;
-  margin: auto;
   font-family: "TT Lakes Regular";
+  margin: 0;
   background-color: #f8f8f8;
   color: black;
   font-size: 14px; }
@@ -396,9 +391,16 @@ body {
     text-align: center;
     width: auto; } }
 
+.page__container {
+  width: 100%; }
+
 .page {
-  width: 100%;
-  background: #f8f8f8; }
+  display: flex;
+  flex-direction: column;
+  background: #f8f8f8;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px; }
 
 .page__style {
   padding: 2%; }
@@ -474,7 +476,7 @@ h1 {
 .price__header {
   background: linear-gradient(100deg, #f8f8f8 0%, #ffffff 98.61%);
   border-top: 1px solid #d9fff5;
-  padding: 0.1% 2%;
+  margin: 0.1% 2%;
   font-family: "TT Lakes Regular";
   font-weight: 400;
   font-size: 16px;
@@ -497,8 +499,12 @@ h1 {
 .technic__item {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: baseline;
   margin: 1% 0; }
+
+.ib__m, .ti__m {
+  margin-bottom: 2%;
+  margin-right: 1.5%; }
 
 .red-arrow {
   display: inline;
@@ -572,9 +578,6 @@ td {
 .ft-f {
   font-family: "TT Lakes Medium";
   color: #7e7e82; }
-
-.ib__m {
-  margin-bottom: 2%; }
 
 .table-order,
 .slideshow-container {
@@ -700,7 +703,8 @@ td {
     overflow-x: scroll; }
   .ib__m,
   .ti__m {
-    width: 100%; }
+    width: 100%;
+    margin-right: 3%; }
   .st-f {
     width: 95%;
     font-size: 14px;
@@ -734,7 +738,7 @@ td {
     background-color: inherit; }
   table tr {
     display: block;
-    margin-right: 0%;
+    margin-right: 1%;
     background-color: #ffffff;
     border-radius: 6%; }
   table td {
@@ -951,10 +955,8 @@ textarea {
   font-weight: 700; }
 
 body {
-  max-width: 1440px;
-  height: auto;
-  margin: auto;
   font-family: "TT Lakes Regular";
+  margin: 0;
   background-color: #f8f8f8;
   color: black;
   font-size: 14px; }
