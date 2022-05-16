@@ -38,10 +38,8 @@ $shadow: #b4b1b1;
 }
 
 body {
-    max-width: 1440px;
-    height: auto;
-    margin: auto;
     font-family: "TT Lakes Regular";
+    margin: 0;
     background-color: $body;
     color: $text;
     font-size: 14px;
