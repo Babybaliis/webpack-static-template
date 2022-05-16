@@ -1,6 +1,6 @@
 var dots = document.getElementById("dots");
 var btnText = document.getElementById("anyBtn");
-var more768 = document.getElementById("more768");
+var more500 = document.getElementById("more500");
 var more320 = document.getElementById("more320");
 var arrow = document.getElementsByClassName("arrow");
 var backSize = document.querySelector(".page__style");
@@ -14,9 +14,10 @@ function openText() {
       arrow[0].style.transform = "rotate(180deg)"
       btnText.innerHTML = "Скрыть";
       if (window.screen.width <= 1440) {
-        more768.style.display = "inline"
+        more500.style.display = "inline"
+        backSize.style.height = "480px"
       }
-      if (window.screen.width <= 768) {
+      if (window.screen.width <= 500) {
         more320.style.display = "inline"
         backSize.style.height = "600px"
       }
@@ -46,7 +47,7 @@ function openText() {
 
 function initialState(flag) {
   if (flag) {
-    more768.style.display = "inline"
+    more500.style.display = "inline"
     more320.style.display = "inline"
     backSize.style.height = window.screen.width <= 1440 ? "430px" : ""
   }
@@ -54,9 +55,10 @@ function initialState(flag) {
   btnText.innerHTML = "Читать далее";
   arrow[0].style.transform = "rotate(0deg)"
   if (window.screen.width <= 1440) {
-    more768.style.display = "none"
+    more500.style.display = "none"
+    backSize.style.height = "430px"
   }
-  if (window.screen.width <= 768) {
+  if (window.screen.width <= 500) {
     more320.style.display = "none"
     backSize.style.height = "430px"
   }

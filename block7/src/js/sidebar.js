@@ -57,7 +57,7 @@ function show(event) {
     lang.classList.remove('lang')
     lang.classList.add('lang-show')
 
-    if (window.screen.width <= 768) {
+    if (window.screen.width <= 500) {
         icons.style.display = "flex";
     }
 
@@ -113,7 +113,7 @@ function closeSideBarMenu(event) {
     langShow.classList.add('lang')
 
 
-    if (window.screen.width <= 768) {
+    if (window.screen.width <= 500) {
         icons.style.display = "none";
     }
 }

@@ -1,6 +1,6 @@
 showSlides(1, 'brandSlide', 'brandDot', 2);
 showSlides(1, 'technicSlide', 'technicDot', 1);
-if (window.screen.width <= 768) {
+if (window.screen.width <= 500) {
   showSlides(1, 'priceSlide', 'priceDot');
 }
 
@@ -11,7 +11,7 @@ function currentSlide(n, slidesName, dotName) {
 function showSlides(n, slidesName, dotName, disableComponent) {
   let slideIndex = n;
   let slides = document.getElementsByClassName(slidesName);
-  if (window.screen.width <= 768) {
+  if (window.screen.width <= 500) {
     let dots = document.getElementsByClassName(dotName);
     if (n > slides.length) {
       slideIndex = 1
@@ -50,7 +50,7 @@ window.currentSlide = currentSlide
 window.addEventListener('resize', function (event) {
   initialState('brandSlide', 'brandDot', 2, "block");
   initialState('technicSlide', 'technicDot', 1, "block");
-  if (window.screen.width <= 768) {
+  if (window.screen.width <= 500) {
     initialState('priceSlide', 'priceDot', 0, "block");
   } else {
     initialState('priceSlide', 'priceDot', 0, "table-row");

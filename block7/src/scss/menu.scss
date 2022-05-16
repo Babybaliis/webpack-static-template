@@ -17,10 +17,12 @@
 .icon {
     display: flex;
     justify-content: space-between;
-}
+  
 
 .search-icon {
-    margin-right: 37%;
+    margin-right: 37%;  
+    cursor: pointer;
+}
 }
 
 .menu__nav {
@@ -49,7 +51,9 @@ li:hover{
     border-left: 3px solid $active;
     border-radius: 2px;
     color: #7e7e82;
+    cursor: pointer;
 }
+
 
 
 
@@ -68,7 +72,7 @@ li:hover{
 .contacts__icon {
     display: flex;
     gap: 7%;
-    cursor: pointer !important
+    cursor: pointer;
 }
 
 .mail {
@@ -84,6 +88,7 @@ li:hover{
     display: flex;
     gap: 1%;
     font-family: "TT Lakes Medium";
+    cursor: pointer;
 }
 
 .line__gray,
@@ -94,4 +99,11 @@ li:hover{
 .contacts__icon-show,
 .tools {
     display: none;
+}
+
+#anyBtn,
+#brandBtn,
+#technicBtn,
+.orders{
+    cursor: pointer;
 }

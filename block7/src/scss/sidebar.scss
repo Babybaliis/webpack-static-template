@@ -109,7 +109,7 @@ textarea {
     height: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .sidebar__show {
         position: absolute;
         background-color: #ffffff;
@@ -117,7 +117,7 @@ textarea {
         z-index: 2;
         right: 0;
         width: 100%;
-        max-width: 768px;
+        max-width: 500px;
         height: 100%;
         overflow: auto;
     }
